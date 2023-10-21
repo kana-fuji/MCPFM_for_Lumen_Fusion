@@ -6,29 +6,26 @@
 
 [![Doc Status](https://readthedocs.org/projects/appcom/badge/?version=latest)](https://appcom.readthedocs.io/en/latest/)
 
-The `MCPFM_for_Lumen_Fusion` library is an implementation of the multicellular phase-field model to reprizanted lumen fusion events.
+The `MCPFM_for_Lumen_Fusion` library is an implementation of the multicellular phase-field model for lumen fusion events.
 
 ## Overview
 
 ### The multicellular phase-field model for lumen fusion
 
 
-### Demo: running simulations and viewing 
-
+## Usage
 ```sh
 
-# Conpaile of sorce code
+# Code compile
 nvcc -O3 -DSFMT_MEXP=19937 src/mcpf_2d_usc.cu src/SFMT.c -o run_simulation -std=c++11
 
-# Load the initial condtions with 8 cells
+# Runnning simulation from 8 cells: 
 ./run.sh test 200 0.18
+# The first argument represents the parameter name, the second one is the cell growth time scale, and the third one is the rumen pressure.
 
-
-# View in ImageJ
-plt.show()
 ```
 
-### Authors
+## Authors
 
 * Kana Fuji - The University of Tokyo
 
@@ -37,3 +34,5 @@ plt.show()
 - nvcc
 - imagej
 
+## License
+"MCPFM_for_Lumen_Fusion" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
