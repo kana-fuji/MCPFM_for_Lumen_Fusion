@@ -1,10 +1,7 @@
 # MCPFM_for_Lumen_Fusion
 
-![AppCoM](docs/Figures/test.gif)
-
+<img src="https://github.com/kana-fuji/MCPFM_for_Lumen_Fusion/assets/135681531/dc348586-a0d3-4494-84a3-ed88bfe4b1c9" width="400">
 <hr/>
-
-[![Doc Status](https://readthedocs.org/projects/appcom/badge/?version=latest)](https://appcom.readthedocs.io/en/latest/)
 
 The `MCPFM_for_Lumen_Fusion` library is an implementation of the multicellular phase-field model for lumen fusion events.
 
